@@ -13,7 +13,7 @@ public class Main {
         int accountBalance = 2_000_000;
 
         // long holds 8 bytes, number from -9 quintillion to 9 quintillion
-        long totalPopulation = 8_000_000_00;
+        long totalPopulation = 8_000_000_000L;
 
         // float holds 4 bytes, fractional number up to 6-7 digits, ends with f
         float scorePrediction = 42.888f;
@@ -27,5 +27,18 @@ public class Main {
         // string varies and not primitive
         String myString = "JavaDev";
         System.out.println(myString);
+
+        // primitive data types Vs Reference data type
+        /* Primitive data types                 Reference data types
+        *  8 types(boolean, int, long...        Unlimited (user defined)
+        *  Store data                           store address
+        *  Can only hold one value              Can hold more than one value
+        *  Less memory                          more memory
+        *  Faster                               Slower*/
+
+        // Variable Declaration, Assignment and Initialization
+        int x; // declaration
+        x = 2; // assignment
+        int y = 5; // Initialization
     }
 }
